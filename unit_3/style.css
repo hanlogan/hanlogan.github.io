@@ -5,7 +5,7 @@ body {
 	color: #FFBFE9;
 	font-family: Helvetica;
 }
-h1 {
+header {
 	text-align: center;
 	color:#FFEBCD;
 	font-style: italic;
@@ -13,11 +13,10 @@ h1 {
 	font-family: Helvetica;
 }
 hr {
-	width: 200px;
-	height: 500px;
+	width: 100%;
 }
 
-p {
+section {
 	font-size: 18px; 
 	font-style: italic;
 	text-align: center;
