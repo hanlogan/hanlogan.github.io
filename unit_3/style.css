@@ -7,14 +7,28 @@
 }
 
 body {
-	background: url(images/cactus.jpg);
+	background: 
 	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 	color: #FFBFE9;
 	text-align: center;
 	position: relative;
 	font-family: Helvetica;
 }
 
+.hero {
+	width: 100%
+	display: block;
+}
+
+.hero > .hero-image {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%
+	display: block;
+}
 header {
 	font-family: 'Alegreya+Sans', Helvetica;
 	font-weight: normal; 
