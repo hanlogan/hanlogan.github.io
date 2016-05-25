@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,800);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700);
+* {
+  margin: 0: padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "comfortaa", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+header {
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav {
+  background-color: E8C66A;
+  border: 1px black solid;
+  padding: 20px;
+  text-align: center;
+  text-transform: smallcaps;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #dd0000;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background-color: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
+  color: #FFEBCD;
+  text-align: center;
+}
+
+article {
+  background-color: #E89C6C; 
+  border: 1px black solid;
+  padding: 20px;
+}
+
+aside {
+  background-color: #FFC675;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+section {
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+div{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
