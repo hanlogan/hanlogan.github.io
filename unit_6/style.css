@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+* {
+  margin: 0: padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  display: block;
+}
+
+h1,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 85px;
+  margin: -15px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 5px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+p {
+  text-align: left;
+}
+
+header {
+  background-color: border: 1px black solid;
+  padding: 20px;
+}
+
+nav {
+  font-family: 'Raleway';
+  background-color: border: 1px black solid;
+  padding: 20px;
+  text-align: center;
+  text-transform: smallcaps;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+footer {
+  background-color: border: 1px black solid;
+  padding: 20px;
+  color: #FFEBCD;
+  text-align: center;
+}
+
+article {
+  background-color: border: 1px black solid;
+  padding: 20px;
+}
+
+aside {
+  background-color: border: 1px black solid;
+  padding: 20px;
+}
+
+section {
+  background-color: border: 1px black solid;
+  padding: 20px;
+}
+
+div {
+  background-color: border: 1px black solid;
+  padding: 20px;
+}
+
+#headerimage {
+  background-image: url(images/juice.jpg);
+  height: 500px;
+}
+
+#two-column {
+  background-color: border: 1px black solid;
+  padding: 20px;
+}
+
+#services {
+  background-color: border: 1px black solid;
+  padding: 20px;
+  float: right;
+  width: 30%;
+}
+
+#hours {
+  background-color: border: 1px black solid;
+  padding: 20px;
+  float: right;
+  width: 30%;
+}
+
+#description {
+  background-color: border: 1px black solid;
+  padding: 20px;
+  float: left;
+  width: 62%;
+}
+
+#menu {
+  padding: 20px;
+  float: left;
+  width: 40%;
+}
+
+#entrees {
+  padding: 20px;
+  float: right;
+  width: 50%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+#menu {
+  height: 300px;
+  display: block;
+}

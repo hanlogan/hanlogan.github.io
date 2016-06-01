@@ -85,3 +85,8 @@ div{
     border: 1px black solid;
     padding: 20px;
 }
+
+#headerimage {
+  background-image: url(images/juice.jpg);
+  height: 500px;
+}
