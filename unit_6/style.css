@@ -1,18 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 * {
-  margin: 0: padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Raleway', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   display: block;
+  position: relative;
 }
 
 h1,
+h2,
 h3 {
   font-weight: bold;
 }
@@ -27,9 +30,8 @@ h1 {
 h2 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   padding: 5px;
-  font-weight: normal;
 }
 
 h3 {
@@ -43,25 +45,35 @@ p {
 }
 
 header {
-  background-color: border: 1px black solid;
   padding: 20px;
 }
 
 nav {
-  font-family: 'Raleway';
-  background-color: border: 1px black solid;
   padding: 20px;
-  text-align: center;
-  text-transform: smallcaps;
-  letter-spacing: 2px;
-  font-size: 18px;
 }
 
-nav a {
+nav a:link {
+  font-family: 'Raleway', sans-serif;
+  text-transform: smallcaps;
+  letter-spacing: 4px;
+  font-size: 16px;
   color: #000000;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-right: 100px;
+}
+
+nav a:visited {
+  color: #000000;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #fff;
+  color: E80C78;
+}
+
+nav a:active {
+  color: #fff;
 }
 
 img {
@@ -70,35 +82,25 @@ img {
   width: 100%;
 }
 
-ul {
-  list-style: none;
-  text-align: left;
-}
-
 footer {
-  background-color: border: 1px black solid;
   padding: 20px;
   color: #FFEBCD;
   text-align: center;
 }
 
 article {
-  background-color: border: 1px black solid;
   padding: 20px;
 }
 
 aside {
-  background-color: border: 1px black solid;
   padding: 20px;
 }
 
 section {
-  background-color: border: 1px black solid;
   padding: 20px;
 }
 
 div {
-  background-color: border: 1px black solid;
   padding: 20px;
 }
 
@@ -108,41 +110,23 @@ div {
 }
 
 #two-column {
-  background-color: border: 1px black solid;
   padding: 20px;
-}
-
-#services {
-  background-color: border: 1px black solid;
-  padding: 20px;
-  float: right;
-  width: 30%;
 }
 
 #hours {
-  background-color: border: 1px black solid;
   padding: 20px;
   float: right;
   width: 30%;
 }
 
 #description {
-  background-color: border: 1px black solid;
   padding: 20px;
   float: left;
   width: 62%;
 }
 
-#menu {
+#two {
   padding: 20px;
-  float: left;
-  width: 40%;
-}
-
-#entrees {
-  padding: 20px;
-  float: right;
-  width: 50%;
 }
 
 .clearfix:after {
@@ -152,9 +136,4 @@ div {
   content: " ";
   clear: both;
   height: 0;
-}
-
-#menu {
-  height: 300px;
-  display: block;
 }
